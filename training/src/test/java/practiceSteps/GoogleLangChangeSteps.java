@@ -1,5 +1,6 @@
 package practiceSteps;
 
+import java.util.Iterator;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -20,6 +21,13 @@ public class GoogleLangChangeSteps {
 		Thread.sleep(3000);
 		glcp.clickLangChooser();
 		glcp.getLangList();
+		for(Iterator i = glcp.getLangName().iterator();i.hasNext();) {
+			System.out.println("Language Name :" + i.next());
+		}
+		glcp.getLangName();
+		for(Iterator i = glcp.getLangName().iterator();i.hasNext();) {
+			System.out.println("Language Name :" + i.next());
+		}
 	}
 
 	@BeforeTest
