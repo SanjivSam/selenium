@@ -14,6 +14,8 @@ public class GoogleLangChangePage {
 	List<WebElement> langList;
 	@FindBys({ @FindBy(tagName = "content") })
 	List<WebElement> langName;
+//	@FindBy(xpath = "//*[@class=\"OA0qNb ncFHed\"]")
+//	WebElement allLang;
 
 	public GoogleLangChangePage(WebDriver driver) {
 		this.driver = driver;
@@ -26,7 +28,7 @@ public class GoogleLangChangePage {
 	public List<WebElement> getLangList() {
 		return langList;
 	}
-	
+
 	public List<WebElement> getLangName() {
 		return langName;
 	}
