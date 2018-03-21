@@ -80,3 +80,10 @@ class Student extends Person {
 		return grade;
 	}
 }
+
+
+/*
+ * Sample Input
+ * 
+ * Heraldo Memelli 8135627 2 100 80
+ */
