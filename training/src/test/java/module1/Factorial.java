@@ -20,5 +20,6 @@ public class Factorial {
 		int n = in.nextInt();
 		int result = factorial(n);
 		System.out.println(result);
+		in.close();
 	}
 }

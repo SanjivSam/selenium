@@ -1,10 +1,6 @@
 package module1;
 
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class HourGlassArray {
 
@@ -17,6 +13,7 @@ public class HourGlassArray {
             }
         }
         HourGlass(arr);
+        in.close();
     }
 
 	private static  void HourGlass(int[][] arr) {

@@ -1,10 +1,6 @@
 package module1;
 
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class AbsoluteDifference {
 	public static void main(String[] args) {

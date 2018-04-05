@@ -29,6 +29,7 @@ public class BSTLevelOrderTraversal {
                 root=insert(root,data);
             }
             levelOrder(root);
+            sc.close();
         }
 	static void levelOrder(BNode root) {
 		// TODO Auto-generated method stub

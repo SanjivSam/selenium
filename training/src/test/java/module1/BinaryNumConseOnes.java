@@ -1,6 +1,5 @@
 package module1;
 
-import java.io.*;
 import java.util.*;
 
 public class BinaryNumConseOnes {
@@ -10,6 +9,7 @@ public class BinaryNumConseOnes {
 		int n = in.nextInt();
 		int result = binar(n);
 		System.out.println(result);
+		in.close();
 	}
 
 	static int binar(int inte) {

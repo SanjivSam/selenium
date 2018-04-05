@@ -8,7 +8,6 @@ public class EvenOddInString {
 		 */
 		// Scanner in = new Scanner(System.in);
 		// int i = in.nextInt();
-		int i = 2;
 //		String result = null;
 		String[] s = { "Hacker", "Rank" };
 		for (int j = 0; j < s.length; j++) {

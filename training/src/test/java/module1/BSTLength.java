@@ -1,7 +1,6 @@
 package module1;
 
 import java.util.*;
-import java.io.*;
 
 class BNode {
 	BNode left, right;
@@ -40,6 +39,7 @@ public class BSTLength {
 		}
 		int height = getHeight(root);
 		System.out.println(height);
+		sc.close();
 	}
 
 	private static int getHeight(BNode root) {

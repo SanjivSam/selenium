@@ -1,7 +1,6 @@
 package module1;
 
 import java.util.*;
-import java.io.*;
 
 class PropagatedExceptionHandling {
 

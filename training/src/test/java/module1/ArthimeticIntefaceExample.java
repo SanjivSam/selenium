@@ -1,6 +1,5 @@
 package module1;
 
-import java.io.*;
 import java.util.*;
 
 interface AdvancedArithmetic {

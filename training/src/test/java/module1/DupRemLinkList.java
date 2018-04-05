@@ -51,6 +51,6 @@ public class DupRemLinkList {
 		}
 		head = removeDuplicates(head);
 		display(head);
-
+		sc.close();
 	}
 }
