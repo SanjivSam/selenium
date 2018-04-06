@@ -2,7 +2,7 @@ package module1;
 
 import java.util.*;
 
-class teleDirSrch{
+class TeleDirSrch{
     public static void main(String []argh){
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
