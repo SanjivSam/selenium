@@ -21,15 +21,16 @@ public class GoogleLangChangeSteps {
 		Thread.sleep(3000);
 		glcp.clickLangChooser();
 		glcp.getLangList();
+		
+		for(Iterator<WebElement> i = glcp.getLangName().iterator();i.hasNext();) {
+			System.out.println("Language Name : " + i.next().getText());
+		}
+		System.out.println("\n\n\n\n End of Lang list \n\n\n\n");
+/*		glcp.getLangName();
 		for(Iterator<WebElement> i = glcp.getLangName().iterator();i.hasNext();) {
 			System.out.println("Language Name :" + i.next());
-		}
-		glcp.getLangName();
-		for(Iterator<WebElement> i = glcp.getLangName().iterator();i.hasNext();) {
-			System.out.println("Language Name :" + i.next());
-		}
+		}*/
 	}
-
 	@BeforeTest
 	public void beforeTest() {
 		driver = BrowserLauncher.getDriver("chrome");
@@ -42,5 +43,4 @@ public class GoogleLangChangeSteps {
 	public void afterTest() {
 		driver.quit();
 	}
-
 }

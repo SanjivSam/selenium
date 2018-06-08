@@ -10,12 +10,10 @@ public class GoogleLangChangePage {
 	WebDriver driver;
 	@FindBy(id = "lang-chooser")
 	WebElement langChooser;
-	@FindBys({ @FindBy(xpath = "//*[@class=\"MocG8c B9IrJb LMgvRb\"]") })
+	@FindBys({ @FindBy(xpath = "//*[@class=\"vRMGwf oJeWuf\"]") })
 	List<WebElement> langList;
 	@FindBys({ @FindBy(tagName = "content") })
 	List<WebElement> langName;
-//	@FindBy(xpath = "//*[@class=\"OA0qNb ncFHed\"]")
-//	WebElement allLang;
 
 	public GoogleLangChangePage(WebDriver driver) {
 		this.driver = driver;
